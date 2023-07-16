@@ -75,7 +75,7 @@ var luhnChk = (function (arr) {
     };
 }([0, 2, 4, 6, 8, 1, 3, 5, 7, 9]));
 
-Deno.serve((req: Request) => new Response(
+Deno.serve((req) => new Response(
     {
         number: generateValidCard("4011", 16),
     }
