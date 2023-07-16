@@ -67,7 +67,7 @@ var luhnChk = (function (arr) {
             val;
 
         while (len) {
-            val = parseInt(ccNum.charAt(—len), 10);
+            val = parseInt(ccNum.charAt(len * -1), 10);
             sum += (bit ^= 1) ? arr[val] : val;
         }
 
