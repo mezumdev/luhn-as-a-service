@@ -77,6 +77,6 @@ var luhnChk = (function (arr) {
 
 Deno.serve((req) => new Response(
     {
-        number: generateValidCard("4011", 16),
+        number: generateValidCard("401128", 16),
     }
 ));
