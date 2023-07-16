@@ -10,7 +10,7 @@ function generateValidCard(bin, length) {
 		counter++;
 		
 		if (counter === limit) {
-			cardNumber = (luhnValid) ? cardNumber : ‘cannot make valid card with given params’
+			cardNumber = (luhnValid) ? cardNumber : 'cannot make valid card with given params'
 			break;
 		}
 	}
